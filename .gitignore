@@ -120,5 +120,5 @@ Session.vim
 
 ### User Defined ###
 /out
-/src/*.js
+*.js
 

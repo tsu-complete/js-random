@@ -7,7 +7,8 @@
     "lint": "./node_modules/.bin/coffeelint -f .coffeelintrc *.coffee",
     "hint": "npm run lint",
     "predocs": "npm run lint",
-    "docs": "./node_modules/.bin/docco -o ./out *.coffee"
+    "docs": "./node_modules/.bin/docco -o ./out *.coffee",
+    "install": "./node_modules/.bin/coffee -c *.coffee"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   },
   "homepage": "https://github.com/tsu-complete/js-random#readme",
   "devDependencies": {
+    "coffee-script": "^1.9.3",
     "coffeelint": "^1.10.1",
     "docco": "^0.7.0"
   }
