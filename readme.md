@@ -13,7 +13,7 @@ MIT (see LICENSE)
 Linting
 ---
 
-Linted with jshint
+Linted with coffeelint
 
 ```sh
 $ npm run lint
@@ -31,7 +31,7 @@ $ npm test
 Documentation
 ---
 
-Documented with jsdoc
+Documented with docco
 
 ```bash
 $ npm run docs

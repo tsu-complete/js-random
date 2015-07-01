@@ -1,0 +1,32 @@
+{
+  "name": "js-random",
+  "version": "1.0.0",
+  "description": "random data generation utilites",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/coffeelint -f .coffeelintrc *.coffee",
+    "hint": "npm run lint",
+    "predocs": "npm run lint",
+    "docs": "./node_modules/.bin/docco -o ./out *.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsu-complete/js-random.git"
+  },
+  "keywords": [
+    "random",
+    "data",
+    "generate",
+    "utility"
+  ],
+  "author": "tsukumo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsu-complete/js-random/issues"
+  },
+  "homepage": "https://github.com/tsu-complete/js-random#readme",
+  "devDependencies": {
+    "coffeelint": "^1.10.1",
+    "docco": "^0.7.0"
+  }
+}
